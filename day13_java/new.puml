@@ -1,0 +1,10 @@
+@startuml
+participant Prasunamba
+participant Atlas_Batch
+
+Prasunamba -> Atlas_Batch1: Congratulations all
+Atlas_Batch --> Prasunamba: Thank you Meher
+
+Prasunamba -> Atlas_Batch1: Good luck for your Module 3
+Atlas_Batch --> Prasunamba: Thank you Meher in advance
+@enduml

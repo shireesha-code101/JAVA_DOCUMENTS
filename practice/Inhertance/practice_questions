@@ -1,0 +1,43 @@
+
+# 📘 Inheritance in Java – Practice Questions
+
+## 🔹 Basic Level
+
+1. Write a Java program to create a `Parent` class and a `Child` class. Demonstrate single inheritance.
+2. Show how method overriding works using `Animal` → `Dog`.
+3. Create a class `Shape` with a method `area()`. Extend it into `Circle` and `Rectangle` classes and override `area()`.
+4. Explain the difference between **method overloading** and **method overriding** with an example.
+5. Can a constructor be inherited in Java? Prove your answer with code.
+
+---
+## 🔹 Intermediate Level
+
+6. Create a class hierarchy `Person → Employee → Manager`. Add fields and methods to each, and demonstrate calling parent methods using `super`.
+7. Write a program that shows **multilevel inheritance** with constructors and explain the order of constructor calls.
+8. Create a class `Vehicle` and subclasses `Car` and `Bike`. Add a method `fuelType()` in each. Show how **runtime polymorphism** works.
+9. Demonstrate **hierarchical inheritance** with `Bird`, `Sparrow`, `Eagle`.
+10. Write a program to explain why **multiple inheritance is not supported** with classes but possible with interfaces.
+
+---
+## 🔹 Advanced / Interview Level
+
+11. What happens if a child class defines the same variable name as the parent class? Write a program to demonstrate **variable hiding**.
+12. Explain the concept of **upcasting and downcasting** with an example (`Parent obj = new Child();`).
+13. Write a program showing **abstract classes and inheritance** (`Shape → Circle/Rectangle`).
+14. Explain how **final methods** and **final classes** affect inheritance with code examples.
+15. Write a program to demonstrate **method overriding with checked and unchecked exceptions**.
+16. Can we override `static` methods in Java? Write a code example to prove your answer.
+17. Demonstrate the use of `super` keyword to:
+
+* Call parent class constructor
+* Call parent class method
+* Access parent class variable
+
+18. Write a program to show **diamond problem** in inheritance and how **interfaces with default methods** solve it.
+19. Can an interface extend another interface? Show with code and explain inheritance in interfaces.
+20. Write a program where a child class overrides a method but still calls parent method using `super`.
+
+---
+
+✅ Now you can copy this list directly.
+Do you want me to also **convert these into a PDF** so you can keep them as a practice sheet?

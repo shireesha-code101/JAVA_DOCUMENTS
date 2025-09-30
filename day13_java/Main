@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+        Shape s1 = new Square(4);
+        Shape s2 = new Circle(3);
+
+        AreaComparer comparer = new AreaComparer();
+        double result = comparer.compareArea(s1, s2);
+
+        final double EPS = 1e-9;  // floating-point tolerance
+        if (result > EPS) {
+            System.out.println("First shape has larger area");
+        } else if (result < -EPS) {
+            System.out.println("Second shape has larger area");
+        } else {
+            System.out.println("Both shapes have equal area");
+        }
+    }
+}
